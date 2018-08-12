@@ -14,24 +14,24 @@ and open the template in the editor.
     </head>
     <body>
         <header>
-            <div>
-                <h1>Simone Debrowney</h1>
-                <h2>Interactive Systems Designer</h2>
+            <div id="mainTitle">
+                <h1 class="textLight">Simone Debrowney</h1>
+                <h2 class="textNormal textCenter">Interactive Systems Designer</h2>
             </div>
-            <nav>
-                <a href="#about">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact Me</a>
-            </nav>
+            <ul class="textNormal" id="nav">
+                <li><a class="active" href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
         </header>
         
         <!--about me -->
         <a name="about"></a>
-        <section>
+        <section class="textDark backgroundDark">
             <h1>About Me</h1>
             <article>
-                <img src="images/simone.jpg" alt="Simone Debrowney photo" width="300" height="300">
+                <img src="images/simone.jpg" alt="Simone Debrowney photo" width="200" height="200"><br>
                 <a href="images/Resume_Simone_Debrowney_2018.pdf" download>Resume</a>
             </article>
             <p>
@@ -42,61 +42,61 @@ and open the template in the editor.
         <!--skills-->
         <a name="skills"></a>
         <section>
-            <h1>Skills</h1>
+            <h1 class="textLight">Skills</h1>
             <article>
-                <h2>Design</h2>
-                <div>
-                    <p>
-                        User interface design
-                        User experience design
-                        Design principles
-                        Prototypes 
-                        Wireframes
-                        Storyboarding
-                        User testing 
-                        Cognitive walkthrough
-                        Usability testing
-                        Playtesting
-                        Creating surveys
+                <h2 class="textNormal">Design</h2>
+                <div class="backgroundDark skillBox">
+                    <p class="textDark">
+                        User interface design<br>
+                        User experience design<br>
+                        Design principles<br>
+                        Prototypes<br>
+                        Wireframes<br>
+                        Storyboarding<br>
+                        User testing<br> 
+                        Cognitive walkthrough<br>
+                        Usability testing<br>
+                        Playtesting<br>
+                        Creating surveys<br>
                         Directing interviews
                     </p>
                 </div>
             </article>
             
-            <article>
-                <h2>Technical</h2>
-                <div>
-                    <p>
-                        Java
-                        Adobe XD
-                        Unity 
-                        C#
-                        Git
-                        HTML
-                        CSS
-                        Javascript 
-                        Photoshop
-                        Python
-                        Beautiful Soup
-                        Selenium
-                        Webdriver
-                        SQLite
-                        LIWC tool
+            <article class="moveRight">
+                <h2 class="textNormal">Technical</h2>
+                <div class="backgroundDark skillBox">
+                    <p class="textDark">
+                        Java<br>
+                        Adobe XD<br>
+                        Unity<br> 
+                        C#<br>
+                        Git<br>
+                        HTML<br>
+                        CSS<br>
+                        Javascript<br> 
+                        Photoshop<br>
+                        Python<br>
+                        Beautiful Soup<br>
+                        Selenium<br>
+                        Webdriver<br>
+                        SQLite<br>
+                        LIWC tool<br>
                         nodeXL
                     </p>
                 </div>
             </article>
 
             <article>
-                <h2>Interpersonal</h2>
-                <div>
-                    <p>
-                        Written communication
-                        Oral communication
-                        Team focused
-                        Organized
-                        Efficient worker
-                        Punctual
+                <h2 class="textNormal">Interpersonal</h2>
+                <div class="backgroundDark skillBox">
+                    <p class="textDark">
+                        Written communication<br>
+                        Oral communication<br>
+                        Team focused<br>
+                        Organized<br>
+                        Efficient worker<br>
+                        Punctual<br>
                         Deadline oriented
                     </p>
                 </div>
@@ -105,49 +105,49 @@ and open the template in the editor.
         
         <!--projects-->
         <a name="projects"></a>
-        <section>
-            <h1>Projects</h1>
-            <article>
+        <section class="backgroundDark">
+            <h1 class="textDark">Projects</h1>
+            <article class="backgroundLight">
                 <img src="images/murderation_home.png" alt="start screen" width="655" height="315">
-                <h2>All Things In Murderation</h2>
-                <p>
+                <h2 class="textLight">All Things In Murderation</h2>
+                <p class="textNormal">
                     Course: “Game Design Workshop” (Computer Science 406)
                     A branching narrative murder mystery game.
                 </p>
             </article>
             
-            <article>
+            <article class="backgroundLight">
                 <img src="images/bdmt_standard.png" alt="standard arena" width="655" height="315">
-                <h2>BDMT</h2>
-                <p>
+                <h2 class="textLight">BDMT</h2>
+                <p class="textNormal">
                     Course: “Game Mechanics” (Computer Science 306) 
                     Two Player competitive badminton simulation game.
                 </p>
             </article>
             
-            <article>
+            <article class="backgroundLight">
                 <img src="images/chickpeas.jpg" alt="chickpeas field" width="655" height="315">
                 <!-- Image taken from https://commons.wikimedia.org/wiki/File:Gramgram.jpg -->
-                <h2>Persuading a Shift to Healthier Eating Habits</h2>
-                <p>
+                <h2 class="textLight">Persuading a Shift to Healthier Eating Habits</h2>
+                <p class="textNormal">
                     Computer Science Undergraduate Research Assistant Summer Job
                     I worked with a PhD student on her research focused on persuasion technology and healthier eating. 
                 </p>
             </article>
                         
-            <article>
+            <article class="backgroundLight">
                 <img src="images/network_toyota.png" alt="social network graph" width="655" height="315">
-                <h2>Social Network Analysis</h2>
-                <p>
+                <h2 class="textLight">Social Network Analysis</h2>
+                <p class="textNormal">
                     Course: “Social Computing” (Computer Science 412)   
                     Examining Twitter hashtags and the effectiveness of marketing campaigns. 
                 </p>
             </article>
                         
-            <article>
+            <article class="backgroundLight">
                 <img src="images/sketches.png" alt="sketches" width="655" height="315">
-                <h2>Emotion Animation</h2>
-                <p>
+                <h2 class="textLight">Emotion Animation</h2>
+                <p class="textNormal">
                     Course: “Human Computer Interactions” (Computer Science 481) 
                     Conveying emotion over instant messaging through animations. 
                 </p>
@@ -157,25 +157,25 @@ and open the template in the editor.
         <!--contact-->
         <a name="contact"></a>
         <section>
-            <h1>Contact Me</h1>
+            <h1 class="textLight">Contact Me</h1>
             <section>
                 <div>
                     <a href="mailto:simone.debrowney@usask.ca?Subject=Hello%20again">
                         <img src="images/mail.png" alt="mail link" width="128" height="131">
                     </a>
-                    <h3>Send me a message at simone.debrowney@usask.ca</h3>
+                    <h3 class="textNormal">Send me a message at simone.debrowney@usask.ca</h3>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/simone-debrowney/">
                         <img src="images/linkedin.png" alt="linkedin link" width="128" height="131">
                     </a>
-                    <h3>Connect with me on Linkedin</h3>
+                    <h3 class="textNormal">Connect with me on Linkedin</h3>
                 </div>
             </section>
         </section>
         
-        <footer>
-            <p>Simone Debrowney &copy; 2018</p>
+        <footer class="backgroundDark">
+            <p class="textDark">Simone Debrowney &copy; 2018</p>
         </footer>
     </body>
 </html>

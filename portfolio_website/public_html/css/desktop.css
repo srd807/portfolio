@@ -7,6 +7,98 @@ and open the template in the editor.
     Created on : Aug 7, 2018, 8:44:51 PM
     Author     : Simone
 */
-h1 {
-    color: purple;
+h1, h2, h3, p {
+    font-family: "Arial", Helvetica, sans-serif;
 }
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.875em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.25em;
+}
+
+.textDark{
+    color: #45E8B0;
+}
+
+.textLight {
+    color: #6126C9;
+}
+
+.textNormal{
+    color: #363838;
+}
+
+.backgroundDark {
+    background-color: #363838;
+}
+
+.backgroundLight{
+    background-color: #C3C1BF;
+}
+
+.backgroundTexture{
+    /*TODO*/
+}
+
+#mainTitle{
+    width: 50%;
+    margin: auto;
+}
+
+#nav {
+    width: 50%;
+    margin: auto;
+}
+
+.skillBox{
+    height: 400px;
+    width: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #363838;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+}
+
+li a.active{
+    color: #6126C9;
+}
+
+li a:hover {
+    color: #6126C9;
+}
+
+.textCenter {
+    text-align: center;
+}
+
