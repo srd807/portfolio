@@ -7,7 +7,12 @@ and open the template in the editor.
     Created on : Aug 7, 2018, 8:44:51 PM
     Author     : Simone
 */
-h1, h2, h3, p {
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
     font-family: "Arial", Helvetica, sans-serif;
 }
 
@@ -24,6 +29,20 @@ h2{
 
 h3{
     font-size: 1.25em;
+}
+a {
+    color: inherit;
+}
+
+a:link {
+    colour: #45E8B0;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6126C9;
 }
 
 .textDark{
@@ -100,5 +119,36 @@ li a:hover {
 
 .textCenter {
     text-align: center;
+}
+
+#aboutP {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.containerCenter{
+    margin: auto;
+}
+
+#aboutPicture {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+
+.projectContainer {
+    height: 450px;
+    width: 400px;
+    margin: 20px;
+}
+
+.descriptionContainer {
+    padding: 20px;
 }
 
