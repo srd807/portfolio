@@ -70,21 +70,26 @@ a:hover {
 }
 
 #mainTitle{
-    width: 50%;
-    margin: auto;
+    width: 50%; 
+    float: left;
+    box-sizing: border-box;
 }
 
 #nav {
     width: 50%;
-    margin: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header {
+    height: 75px;
 }
 
 .skillBox{
     height: 400px;
     width: 150px;
     padding: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
 }
 
 ul {
@@ -122,33 +127,100 @@ li a:hover {
 }
 
 #aboutP {
-    width: 300px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    float: left;
 }
 
 .containerCenter{
     margin: auto;
+    width: 460px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color: #363838;
 }
 
 #aboutPicture {
-    border-style: solid;
-    border-color: red;
-    border-width: 5px;
     padding: 20px;
     text-align: center;
-    width: 300px;
-    margin: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .projectContainer {
     height: 450px;
     width: 400px;
-    margin: 20px;
+    margin: 30px;
 }
 
 .descriptionContainer {
     padding: 20px;
 }
 
+.titlePadding {
+    padding: 20px;
+    margin: 20px;
+}
+
+.smallLineHeight {
+    line-height: 30%;
+}
+
+.backgroundImage {
+    background-image: url("images/linen_texture.png");
+}
+
+.containerSkills {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.containerContact {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.moveRight {
+    float: right;
+}
+
+.textContact {
+    margin-top: 60px;
+}
+
+.projectMove {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+.extraPadding {
+    padding: 10px;
+}
+
+#aboutPWidth {
+    width: 300px;
+}
+
+.positionFixed {
+    position: fixed;
+}
+
+#skillsCenter {
+    margin: auto;
+    width: 185px;
+}

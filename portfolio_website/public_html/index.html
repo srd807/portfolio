@@ -13,10 +13,10 @@ and open the template in the editor.
         <script src="default.js"></script>
     </head>
     <body>
-        <header>
+        <header class="clearfix">
             <div id="mainTitle">
-                <h1 class="textLight">Simone Debrowney</h1>
-                <h2 class="textNormal textCenter">Interactive Systems Designer</h2>
+                <h1 class="textLight smallLineHeight">Simone Debrowney</h1>
+                <h3 class="textNormal textCenter smallLineHeight">Interactive Systems Designer</h3>
             </div>
             <ul class="textNormal" id="nav">
                 <li><a class="active" href="#about">About Me</a></li>
@@ -29,26 +29,32 @@ and open the template in the editor.
         <!--about me -->
         <a name="about"></a>
         <section class="textDark backgroundDark">
-            <h1>About Me</h1>
-            <article>
-                <div id="aboutPicture">
-                    <img src="images/simone.jpg" alt="Simone Debrowney photo" width="200" height="200"><br>
-                    <a href="images/Resume_Simone_Debrowney_2018.pdf" download>Resume</a>
-                </div>
-            </article>
-            <p id="aboutP">
+            <h1 class="titlePadding">About Me</h1>
+            <div class="clearfix">
+                <article id="aboutPicture">
+                    <div class="moveRight">
+                        <img src="images/simone.jpg" alt="Simone Debrowney photo" width="200" height="200"><br>
+                        <a href="images/Resume_Simone_Debrowney_2018.pdf" download>Resume</a>
+                    </div>
+                </article>
+                <div id="aboutP">
+                    <p id="aboutPWidth">
                 I recently graduated from the University of Saskatchewan where I completed my Bachelor of Arts and Science, majoring in Interactive Systems Design. I became intrigued when I first learned about human computer interaction; a field of study that is focused on design and examining how users interact with technology. I am most interested in user interface design, user experience design, and usability testing. In my spare time, I enjoy participating in roleplaying games, gardening, and studying Japanese. 
-            </p> 
+                    </p> 
+                </div>
+            </div>
         </section>
         
         <!--skills-->
         <a name="skills"></a>
-        <section>
+        <section class="clearfix">
             <h1 class="textLight">Skills</h1>
-            <article>
-                <h2 class="textNormal">Design</h2>
-                <div class="backgroundDark skillBox">
-                    <p class="textDark">
+            
+            <div class="containerSkills">
+                <article class="moveRight">
+                    <h2 class="textNormal">Design</h2>
+                    <div class="backgroundDark skillBox">
+                        <p class="textDark">
                         User interface design<br>
                         User experience design<br>
                         Design principles<br>
@@ -61,11 +67,29 @@ and open the template in the editor.
                         Playtesting<br>
                         Creating surveys<br>
                         Directing interviews
-                    </p>
-                </div>
-            </article>
+                        </p>
+                    </div>
+                </article>
+            </div>
             
-            <article class="moveRight">
+            <div class="containerSkills">
+                <article id="skillsCenter">
+                    <h2 class="textNormal">Interpersonal</h2>
+                    <div class="backgroundDark skillBox">
+                        <p class="textDark">
+                        Written communication<br>
+                        Oral communication<br>
+                        Team focused<br>
+                        Organized<br>
+                        Efficient worker<br>
+                        Punctual<br>
+                        Deadline oriented
+                        </p>
+                    </div>
+                </article>
+            </div>
+            
+            <article class="containerSkills">
                 <h2 class="textNormal">Technical</h2>
                 <div class="backgroundDark skillBox">
                     <p class="textDark">
@@ -88,82 +112,81 @@ and open the template in the editor.
                     </p>
                 </div>
             </article>
-
-            <article>
-                <h2 class="textNormal">Interpersonal</h2>
-                <div class="backgroundDark skillBox">
-                    <p class="textDark">
-                        Written communication<br>
-                        Oral communication<br>
-                        Team focused<br>
-                        Organized<br>
-                        Efficient worker<br>
-                        Punctual<br>
-                        Deadline oriented
-                    </p>
-                </div>
-            </article>
         </section>
         
         <!--projects-->
         <a name="projects"></a>
         <section class="backgroundDark">
-            <h1 class="textDark">Projects</h1>
-            <article class="backgroundLight projectContainer">
-                <img src="images/murderation_home.png" alt="start screen" width="400" height="200">
-                <div class="descriptionContainer">
-                    <h2 class="textLight">All Things In Murderation</h2>
-                    <p class="textNormal">
+            <h1 class="textDark titlePadding">Projects</h1>
+            <div class="clearfix">
+                <div class="projectMove">
+                    <article class="backgroundLight projectContainer moveRight">
+                        <img src="images/murderation_home.png" alt="start screen" width="400" height="200">
+                        <div class="descriptionContainer">
+                            <h2 class="textLight">All Things In Murderation</h2>
+                            <p class="textNormal">
                     Course: “Game Design Workshop” (Computer Science 406)
                     A branching narrative murder mystery game.
-                    </p>
+                            </p>
+                        </div>
+                    </article>
                 </div>
-            </article>
-            
-            <article class="backgroundLight projectContainer">
-                <img src="images/bdmt_standard.png" alt="standard arena" width="400" height="200">
-                <div class="descriptionContainer">
-                    <h2 class="textLight">BDMT</h2>
-                    <p class="textNormal">
+                
+                <div class="projectMove">
+                    <article class="backgroundLight projectContainer">
+                        <img src="images/bdmt_standard.png" alt="standard arena" width="400" height="200">
+                        <div class="descriptionContainer">
+                            <h2 class="textLight">BDMT</h2>
+                            <p class="textNormal">
                     Course: “Game Mechanics” (Computer Science 306) 
                     Two Player competitive badminton simulation game.
-                    </p>
+                            </p>
+                        </div>
+                    </article>
                 </div>
-            </article>
+            </div>
             
-            <article class="backgroundLight projectContainer">
-                <img src="images/chickpeas.jpg" alt="chickpeas field" width="400" height="200">
-                <!-- Image taken from https://commons.wikimedia.org/wiki/File:Gramgram.jpg -->
-                <div class="descriptionContainer">
-                    <h2 class="textLight">Persuading a Shift to Healthier Eating Habits</h2>
-                    <p class="textNormal">
+            <div class="clearfix">
+                <div class="projectMove">
+                    <article class="backgroundLight projectContainer moveRight">
+                    <img src="images/chickpeas.jpg" alt="chickpeas field" width="400" height="200">
+                    <!-- Image taken from https://commons.wikimedia.org/wiki/File:Gramgram.jpg -->
+                    <div class="descriptionContainer">
+                        <h2 class="textLight">Persuading a Shift to Healthier Eating Habits</h2>
+                        <p class="textNormal">
                     Computer Science Undergraduate Research Assistant Summer Job
                     I worked with a PhD student on her research focused on persuasion technology and healthier eating. 
-                    </p>
+                        </p>
+                    </div>
+                    </article>
                 </div>
-            </article>
-                        
-            <article class="backgroundLight projectContainer">
-                <img src="images/network_toyota.png" alt="social network graph" width="400" height="200">
-                <div class="descriptionContainer">
-                    <h2 class="textLight">Social Network Analysis</h2>
-                    <p class="textNormal">
+                
+                <div class="projectMove">          
+                    <article class="backgroundLight projectContainer">
+                        <img src="images/network_toyota.png" alt="social network graph" width="400" height="200">
+                        <div class="descriptionContainer">
+                            <h2 class="textLight">Social Network Analysis</h2>
+                            <p class="textNormal">
                     Course: “Social Computing” (Computer Science 412)   
                     Examining Twitter hashtags and the effectiveness of marketing campaigns. 
-                    </p>
+                            </p>
+                        </div>
+                    </article>
                 </div>
-            </article>
-                        
-            <article class="backgroundLight projectContainer">
-                <img src="images/sketches.png" alt="sketches" width="400" height="200">
-                <div class="descriptionContainer">
-                    <h2 class="textLight">Emotion Animation</h2>
-                    <p class="textNormal">
+            </div> 
+            
+            <div class="containerCenter">
+                <article class="backgroundLight projectContainer">
+                    <img src="images/sketches.png" alt="sketches" width="400" height="200">
+                    <div class="descriptionContainer">
+                        <h2 class="textLight">Emotion Animation</h2>
+                        <p class="textNormal">
                     Course: “Human Computer Interactions” (Computer Science 481) 
                     Conveying emotion over instant messaging through animations. 
-                    </p>
-                </div>
-            </article>
+                        </p>
+                    </div>
+                </article>
+            </div>
         </section>
         
         <!--contact-->
@@ -171,23 +194,27 @@ and open the template in the editor.
         <section>
             <h1 class="textLight">Contact Me</h1>
             <section>
-                <div>
-                    <a href="mailto:simone.debrowney@usask.ca?Subject=Hello%20again">
-                        <img src="images/mail.png" alt="mail link" width="128" height="131">
-                    </a>
-                    <h3 class="textNormal">Send me a message at simone.debrowney@usask.ca</h3>
+                <div class="clearfix">
+                    <div class="containerContact">
+                        <a class="moveRight extraPadding" href="mailto:simone.debrowney@usask.ca?Subject=Hello%20again">
+                            <img src="images/mail.png" alt="mail link" width="128" height="131">
+                        </a>
+                    </div>
+                    <h3 class="textNormal containerContact textContact">Send me a message at simone.debrowney@usask.ca</h3>
                 </div>
-                <div>
-                    <a href="https://www.linkedin.com/in/simone-debrowney/">
-                        <img src="images/linkedin.png" alt="linkedin link" width="128" height="131">
-                    </a>
-                    <h3 class="textNormal">Connect with me on Linkedin</h3>
+                <div class="clearfix">
+                    <div class="containerContact">
+                        <a class="moveRight extraPadding" href="https://www.linkedin.com/in/simone-debrowney/">
+                            <img src="images/linkedin.png" alt="linkedin link" width="128" height="131">
+                        </a>
+                    </div>
+                    <h3 class="textNormal containerContact textContact">Connect with me on Linkedin</h3>
                 </div>
             </section>
         </section>
         
         <footer class="backgroundDark">
-            <p class="textDark">Simone Debrowney &copy; 2018</p>
+            <p class="textDark titlePadding">Simone Debrowney &copy; 2018</p>
         </footer>
     </body>
 </html>
