@@ -225,3 +225,7 @@ li a:hover {
     margin: auto;
     width: 185px;
 }
+
+.extraMargin {
+    margin: 10px;
+}
