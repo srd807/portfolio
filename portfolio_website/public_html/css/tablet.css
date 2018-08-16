@@ -16,11 +16,11 @@ html, body{
 body{
     font-family: "Arial", Helvetica, sans-serif;
     background-image: url("../images/linen_texture.png");
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 header {
-    height: 100px;
+    height: 160px;
     background-image: url("../images/linen_texture.png");
     position: fixed;
     top: 0;
@@ -49,7 +49,7 @@ a {
 }
 
 a:link {
-    colour: #45E8B0;
+    color: #45E8B0;
     text-decoration: none;
 }
 
@@ -176,11 +176,11 @@ li a:hover {
     float: right;
 }
 
-.projectMove {
+/*.projectMove {
     box-sizing: border-box;
     float: left;
     width: 50%;
-}
+}*/
 
 .extraPadding {
     padding: 10px;
@@ -208,6 +208,10 @@ li a:hover {
     height: 110px;
 }
 
+.textContact {
+    margin-top: 50px;
+}
+
 /*ANIMATIONS/*
 /* Grow */
 .hvr-grow {
@@ -232,19 +236,11 @@ li a:hover {
     font-weight: bold;
 }
 
-
-#mainTitle{
-    width: 50%; 
-    float: left;
-    box-sizing: border-box;
-}
-
 #nav {
-    width: 50%;
-    float: left;
+    width: 670px;
+    margin: auto;
     box-sizing: border-box;
-    padding: 20px;
-}
+}  
 
 #aboutPicture {
     padding: 20px;
@@ -272,17 +268,11 @@ li a:hover {
     width: 300px;
 }
 
-#iconTextL {
-    padding-left: 33px;
-    padding-top: 23px;
-}
-
-#iconTextE {
-    padding-left: 26px;
-    padding-top: 23px;
-}
-
-#textContact {
-    margin-top: 60px;
+#containerCenterEmotion{
+    margin: auto;
+    width: 460px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color: #363838;
 }
 

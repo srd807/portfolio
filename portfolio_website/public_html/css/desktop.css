@@ -49,7 +49,7 @@ a {
 }
 
 a:link {
-    colour: #45E8B0;
+    color: #45E8B0;
     text-decoration: none;
 }
 
@@ -116,14 +116,6 @@ li a:hover {
     padding: 20px;
 }
 
-.containerCenter{
-    margin: auto;
-    width: 460px;
-    border-style:  solid;
-    border-width: 1px;
-    border-color: #363838;
-}
-
 .projectContainer {
     height: 450px;
     width: 400px;
@@ -176,6 +168,10 @@ li a:hover {
     float: right;
 }
 
+.moveRightProjects {
+    float: right;
+}
+
 .projectMove {
     box-sizing: border-box;
     float: left;
@@ -206,6 +202,9 @@ li a:hover {
 .iconWidth {
     width: 110px;
     height: 110px;
+}
+.textContact {
+    margin-top: 50px;
 }
 
 /*ANIMATIONS/*
@@ -272,16 +271,10 @@ li a:hover {
     width: 300px;
 }
 
-#iconTextL {
-    padding-left: 33px;
-    padding-top: 23px;
-}
-
-#iconTextE {
-    padding-left: 26px;
-    padding-top: 23px;
-}
-
-#textContact {
-    margin-top: 60px;
+#containerCenterEmotion{
+    margin: auto;
+    width: 460px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color: #363838;
 }
