@@ -71,7 +71,7 @@ li {
 
 li a {
     display: block;
-    color: #363838;
+    color: #363838 !important;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -85,7 +85,7 @@ li a {
 }*/
 
 li a:hover {
-    color: #6126C9;
+    color: #6126C9 !important;
 }
 
 /*BASIC TEXT AND BACKGROUND COLOURS*/
@@ -111,7 +111,7 @@ li a:hover {
 
 /*CONTAINERS*/
 .skillBox{
-    height: 400px;
+    height: 350px;
     width: 150px;
     padding: 20px;
 }
@@ -169,6 +169,11 @@ li a:hover {
 }
 
 .moveRightProjects {
+    float: right;
+}
+
+
+.moveRightContact {
     float: right;
 }
 

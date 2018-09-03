@@ -4,7 +4,267 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Aug 16, 2018, 3:56:52 PM
+    Created on : Aug 7, 2018, 8:44:51 PM
     Author     : Simone
 */
+/*MAIN CONTENT*/
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Arial", Helvetica, sans-serif;
+    background-image: url("../images/linen_texture.png");
+    margin-top: 350px;
+}
+
+header {
+    height: 350px;
+    background-image: url("../images/linen_texture.png");
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.875em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.25em;
+}
+
+/*LINKS*/
+a {
+    color: inherit;
+}
+
+a:link {
+    color: #45E8B0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6126C9;
+}
+
+/*LISTS*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    width: 200px;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    color: #363838 !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+/*li a.active{
+    color: #6126C9;
+}*/
+
+li a:hover {
+    color: #6126C9 !important;
+}
+
+/*BASIC TEXT AND BACKGROUND COLOURS*/
+.textDark{
+    color: #45E8B0;
+}
+
+.textLight {
+    color: #6126C9;
+}
+
+.textNormal{
+    color: #363838;
+}
+
+.backgroundDark {
+    background-color: #363838;
+}
+
+.backgroundLight{
+    background-color: #C3C1BF;
+}
+
+/*CONTAINERS*/
+.skillBox{
+    height: 350px;
+    width: 150px;
+    padding: 20px;
+}
+
+.containerCenter{
+    margin: auto;
+    width: 460px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color: #363838;
+}
+
+.projectContainer {
+    height: 450px;
+    width: 400px;
+    margin: 30px;
+}
+
+.containerContact {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+.containerMobileCenter {
+    margin: auto;
+}
+
+.mobileSkillsCenter { 
+    margin: auto;
+    width: 185px;
+}
+
+ 
+/*ALIGNMENT*/
+.textCenter {
+    text-align: center;
+}
+
+.textMobileCenter {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.descriptionContainer {
+    padding: 20px;
+}
+
+.titlePadding {
+    padding: 20px;
+    margin: 20px;
+}
+
+.smallLineHeight {
+    line-height: 30%;
+}
+
+.backgroundImage {
+    background-image: url("images/linen_texture.png");
+}
+
+.moveRightContact {
+    float: right;
+}
+
+.positionFixed {
+    position: fixed;
+}
+
+
+.extraMargin {
+    margin: 10px;
+}
+
+.roundCorners {
+    border-radius: 50%;
+}
+
+.backgroundWhite {
+    background-color: #F5F5F5;
+}
+
+.iconWidth {
+    width: 110px;
+    height: 110px;
+}
+
+/*ANIMATIONS/*
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*IDS*/
+#resumeLink {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#nav {
+    width: 670px;
+    margin: auto;
+    box-sizing: border-box;
+}  
+
+#aboutPicture {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;   
+}
+
+#aboutP {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#skillsCenter {
+    margin: auto;
+    width: 185px;
+}
+
+#containerCenterEmotion{
+    margin: auto;
+    width: 460px;
+    border-style:  solid;
+    border-width: 1px;
+    border-color: #363838;
+}
 
