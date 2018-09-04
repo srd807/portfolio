@@ -10,20 +10,29 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
+        <link rel ="stylesheet" href="css/project_desktop.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            <h1>Persuading a Shift to Healthier Eating Habits</h1>
-            <h2>Computer Science Undergraduate Research Assistant Summer Job</h2>
-            <div>
-                <i class="fa fa-close fa-3x"></i>
+        <header class="textDark backgroundDark clearfix">
+            <div class="containerHeader">
+                <h1 class="textCenter">Persuading a Shift to Healthier Eating Habits</h1>
+                <h2 class="textCenter">Computer Science Undergraduate Research Assistant Summer Job</h2>
             </div>
+            <a class="hvr-grow containerClose" href="index.html">
+              <span class="fa-stack fa-2x moveRight">
+                <i class="fa fa-square fa-stack-2x textDark"></i>
+                <i class="fa fa-close fa-stack-1x fa-inverse"></i>
+                </span>  
+            </a>
         </header>
-        <section>
-            <img src="images/chickpeas.png" alt="Chickpeas field" width="400" height="200">
-            <a href="https://commons.wikimedia.org/wiki/File:Gramgram.jpg">Image taken from</a>
-            <p>
+        
+        <section class="clearfix">
+            <div class="container">
+                <img class="moveRight" src="images/chickpeas.png" alt="Chickpeas field" width="400" height="200">
+                <a href="https://commons.wikimedia.org/wiki/File:Gramgram.jpg">Image taken from Wikicommons</a>
+            </div>
+            <p class="container">
                 I worked with a PhD student on her research focused on persuasion technology and healthier eating. The overarching goal for this                   project was to examine why people eat healthy and use this information to persuade others to make healthier eating choices.<br>   
                 Team<br>
                 Prof. Julita Vassileva, Ifeoma Adaji, Simone Debrowney, and Czarina Catambing Sharmaine<br>
@@ -31,13 +40,17 @@ and open the template in the editor.
             </p>
         </section>
         
-        <section>
-            <p>
+        <section class="clearfix">
+            <div class="container">
+                <p class="moveRight">
                 The project was divided into a survey examining people's healthy eating habits and an analysis of users' personalities from reviews posted on pulse recipes from an online recipe community, Allrecipes.com. The data was extracted from the website using a web crawler and scraper that was built using a combination of Python, Beautiful Soup, Selenium, Webdriver, and SQLite. The data extracted from the website was then analyzed using the Linguistics Inquiry Word Count (LIWC) tool to find the reviewers’ Big Five personality traits.  
-            </p>
-            <img src="images/allrecipe.png" alt="Allrecipes.com recipe page" width="400" height="200">
-            <img src="images/allrecipes_review.png" alt="Allrecipes.com review" width="400" height="200">
-            <h3>Allrecipes.com</h3>
+                </p>
+            </div>
+            <div class="container">
+                <img src="images/allrecipe.png" alt="Allrecipes.com recipe page" width="400" height="200">
+                <img src="images/allrecipes_review.png" alt="Allrecipes.com review" width="400" height="200">
+                <h3>Allrecipes.com</h3>
+            </div>
         </section>
         
          <footer class="backgroundDark">

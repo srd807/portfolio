@@ -10,21 +10,30 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
+        <link rel ="stylesheet" href="css/project_desktop.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            <h1>All Things in Murderation</h1>
-            <h2>Course: “Game Design Workshop” (Computer Science 406)<br>
+        <header class="textDark backgroundDark clearfix">
+            <div class="containerHeader">
+                <h1 class="textCenter">All Things in Murderation</h1>
+                <h2 class="textCenter">Course: “Game Design Workshop” (Computer Science 406)<br>
                 A branching narrative murder mystery game.
-            </h2>
-            <div>
-                <i class="fa fa-close fa-3x"></i>
+                </h2>
             </div>
+            <a class="hvr-grow containerClose" href="index.html">
+              <span class="fa-stack fa-2x moveRight">
+                <i class="fa fa-square fa-stack-2x textDark"></i>
+                <i class="fa fa-close fa-stack-1x fa-inverse"></i>
+                </span>  
+            </a>
         </header>
-        <section>
-            <img src="images/murderation_home.png" alt="Murderation start screen" width="400" height="200">
-            <p>
+        
+        <section class="clearfix">
+            <div class="container">
+                <img class="moveRight" src="images/murderation_home.png" alt="Murderation start screen" width="400" height="200">
+            </div>
+            <p class="container">
                 My team’s challenge was to create a branching narrative game that branches depending on the player’s choices, which must be meaningful. Each branch had to be equally                  fun and believable. We were also tasked with optimizing the assets in the game without creating multiple versions. <br>
                 Team<br>
                 Project Lead Brandon Piller<br>
@@ -38,14 +47,17 @@ and open the template in the editor.
                 Programmer Jordan Nelson<br>
                 Programmer Matthew Snow
             </p>
-        </section>
-        
-        <section>
-            <p>
-                The game consists of three acts: exploration, investigation, and accusation. During the exploration act, player’s choices will                      determine which character will be murdered either through dialogue options or picking up items. During the investigation act,                      players will examine the crime scene, interrogate other characters, and explore the mansion for clues. Once the player has decided                 on a murderer, they will start the accusation act and try to successfully argue for their case using evidence they found or through                dialogue options. Several playthroughs may be necessary for players to gather all the correct evidence to successfully accuse the                  murderer.  The game was created using Unity 2017, C#, and Git. <a href="https://daylonball.github.io/allthingsinmurderation/">More Information and game can be played on the browser.</a>
-            </p>
-            <img src="images/murderation_choice1.png" alt="Dialogue choice" width="400" height="200">
-            <img src="images/murderation_choice2.png" alt="Object choice" width="400" height="200">
+        </section>        
+        <section class="clearfix">
+            <div class="container">
+                <p class="moveRight">
+                The game consists of three acts: exploration, investigation, and accusation. During the exploration act, player’s choices will                      determine which character will be murdered either through dialogue options or picking up items. During the investigation act,                      players will examine the crime scene, interrogate other characters, and explore the mansion for clues. Once the player has decided                 on a murderer, they will start the accusation act and try to successfully argue for their case using evidence they found or through                dialogue options. Several playthroughs may be necessary for players to gather all the correct evidence to successfully accuse the                  murderer.  The game was created using Unity 2017, C#, and Git. <a href="https://daylonball.github.io/allthingsinmurderation/">Game can be played online</a>
+                </p>
+            </div>
+            <div class="container">
+                <img src="images/murderation_choice1.png" alt="Dialogue choice" width="400" height="200">
+                <img src="images/murderation_choice2.png" alt="Object choice" width="400" height="200">
+            </div>
         </section>
         
          <footer class="backgroundDark">

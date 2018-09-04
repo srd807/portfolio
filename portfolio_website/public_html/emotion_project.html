@@ -10,33 +10,45 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
+        <link rel ="stylesheet" href="css/project_desktop.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            <h1>Emotion Animations</h1>
-            <h2>Course: “Human Computer Interactions” (Computer Science 481) 
+        <header class="textDark backgroundDark clearfix">
+            <div class="containerHeader">
+                <h1 class="textCenter">Emotion Animations</h1>
+                <h2 class="textCenter">Course: “Human Computer Interactions” (Computer Science 481)<br> 
                 Conveying emotion over instant messaging through animations.
-            </h2>
-            <div>
-                <i class="fa fa-close fa-3x"></i>
+                </h2>
             </div>
+             <a class="hvr-grow containerClose" href="index.html">
+              <span class="fa-stack fa-2x moveRight">
+                <i class="fa fa-square fa-stack-2x textDark"></i>
+                <i class="fa fa-close fa-stack-1x fa-inverse"></i>
+                </span>  
+            </a>
         </header>
-        <section>
-            <img src="images/sketches.png" alt="Sketches of emotion animations" width="400" height="200">
-            <p>
+        
+        <section class="clearfix">
+            <div class="container">
+                <img class="moveRight" src="images/sketches.png" alt="Sketches of emotion animations" width="400" height="200">
+            </div>
+            <p class="container">
                 The focus of this project was to create a new way to convey emotion over instant message by animating the message through changing                 the size, colour, and movement of the text. This project focused on learning the design process of reduction and elaboration, early                stage prototyping, and different evaluation techniques (usability testing, cognitive walkthrough, questionnaires, and interviews).<br>
                 Team<br>
                 Alita Mann, Kyle Siemens, and Simone Debrowney
             </p>
         </section>
-        
-        <section>
-            <p>
+        <section class="clearfix">
+            <div class="container">
+                <p class="moveRight">
                 For the medium fidelity prototype, we used a horizontal approach by implementing all the main components on a high level. Our team focused on evaluating the user’s perception of the emotion animations rather than the flow of the application. This prototype featured six preset emotion animations: angry, excited, sad, tired, dying, and embarrassed. The prototype was developed using Processing and Photoshop. 
-            </p>
-            <img src="images/storyboard.png" alt="Storyboard of emotion animation app" width="400" height="200">
-            <h3>Storyboard</h3>
+                </p>
+            </div>
+            <div class="container">
+                <img src="images/storyboard.png" alt="Storyboard of emotion animation app" width="400" height="200">
+                <h3>Storyboard</h3>
+            </div>
         </section>
         
          <footer class="backgroundDark">

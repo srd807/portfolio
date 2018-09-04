@@ -10,34 +10,47 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
+        <link rel ="stylesheet" href="css/project_desktop.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            <h1>Social Network Analysis Research</h1>
-            <h2>Course: “Social Computing” (Computer Science 412)
+        <header class="textDark backgroundDark clearfix">
+            <div class="containerHeader">
+                <h1 class="textCenter">Social Network Analysis Research</h1>
+                <h2 class="textCenter">Course: “Social Computing” (Computer Science 412)<br>
                 Examining Twitter hashtags and the effectiveness of marketing campaigns. 
-            </h2>
-            <div>
-                <i class="fa fa-close fa-3x"></i>
+                </h2>
             </div>
+            <a class="hvr-grow containerClose" href="index.html">
+              <span class="fa-stack fa-2x moveRight">
+                <i class="fa fa-square fa-stack-2x textDark"></i>
+                <i class="fa fa-close fa-stack-1x fa-inverse"></i>
+                </span>  
+            </a>
         </header>
-        <section>
-            <img src="images/network_toyota.png" alt="Toyota social network graph" width="400" height="200">
-            <h3>@toyota Figure 4 showing the connectedness of the networks</h3>
-            <p>
+        
+        <section class="clearfix">
+            <div class="container">
+                <img class="moveRight" src="images/network_toyota.png" alt="Toyota social network graph" width="400" height="200">
+                <h3>@toyota Figure 4 showing the connectedness of the networks</h3>
+            </div>
+            <p class="container">
                 For this research project, my partner and I examined data from Twitter using social network analysis. The goal was to examine the                  effectiveness of different companies’ hashtag campaigns in creating interest and selling their products. We examined the social                     network graphs of four search terms: #Pixel, @toyota, #yogabook, and ToysRUs.<br>   
                 Team<br>
                 Simone Debrowney and Roos Bakker
             </p>
         </section>
         
-        <section>
-            <p>
+        <section class="clearfix">
+            <div class="container">
+                <p class="moveRight">
                 Within each graph, we measured how connected the users were to see how many consumers the company can reach directly, the popularity of each user, and how much influence the user has on the entire network. This data is useful for monitoring brand reputation and identifying key people on social media who actively engage with different companies’ content.  The data was extracted using nodeXL that uses Twitter’s search function. 
-            </p>
-            <img src="images/network_yogabook.png" alt="Yogabook social network graph" width="400" height="200">
-            <h3>#yogabook Figure 7 showing the connectedness of the graphs</h3>
+                </p>
+            </div>
+            <div class="container">
+                <img src="images/network_yogabook.png" alt="Yogabook social network graph" width="400" height="200">
+                <h3>#yogabook Figure 7 showing the connectedness of the graphs</h3>
+            </div>
         </section>
         
          <footer class="backgroundDark">
