@@ -39,7 +39,7 @@ h3{
 }
 
 p {
-    width: 500px;
+    width: 500px !important;
 }
 
 /*LINKS*/
@@ -70,6 +70,11 @@ a:hover {
     color: #363838;
 }
 
+.textTitle {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .backgroundDark {
     background-color: #363838;
 }
@@ -96,7 +101,9 @@ a:hover {
 .extraMargin {
     margin: 10px;
 }
-
+.extraPadding {
+    padding-top: 20px;
+}
 /*CONTAINERS*/
 .container {
     width: 50%;
