@@ -20,7 +20,9 @@ body{
 }
 
 header {
-    height: 240px;
+    height: auto;
+    overflow: auto;
+    display: block;
 }
 
 h1 {
