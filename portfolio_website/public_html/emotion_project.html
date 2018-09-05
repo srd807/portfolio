@@ -10,7 +10,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
-        <link rel ="stylesheet" href="css/project_desktop.css">
+        <link rel ="stylesheet" href="css/project_desktop.css" media="(min-width: 1201px)">
+        <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
+        <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -22,7 +24,7 @@ and open the template in the editor.
                 </h2>
             </div>
              <a class="hvr-grow containerClose" href="index.html#emotion">
-              <span class="fa-stack fa-2x moveRight">
+              <span class="fa-stack fa-2x moveRightMobile">
                 <i class="fa fa-square fa-stack-2x textDark"></i>
                 <i class="fa fa-close fa-stack-1x fa-inverse"></i>
                 </span>  
@@ -31,7 +33,9 @@ and open the template in the editor.
         
         <section class="clearfix">
             <div class="container">
-                <img class="moveRight extraPadding" src="images/sketches.png" alt="Sketches of emotion animations" width="400" height="200">
+                <div class="imageCenter">
+                    <img class="moveRight extraPadding" src="images/sketches.png" alt="Sketches of emotion animations" width="400" height="200">
+                </div>
             </div>
             <p class="container">
                 The focus of this project was to create a new way to convey <span class="textLight"> emotion</span> over <span class="textLight"> instant message</span> by <span class="textLight"> animating</span> the message through changing the <span class="textLight"> size, colour, and movement</span> of the text. This project focused on learning the design process of reduction and elaboration, early stage prototyping, and different evaluation techniques (usability testing, cognitive walkthrough, questionnaires, and interviews).<br>
@@ -46,8 +50,10 @@ and open the template in the editor.
                 </p>
             </div>
             <div class="container">
-                <img class="extraPadding" src="images/storyboard.png" alt="Storyboard of emotion animation app" width="400" height="200">
-                <h3>Storyboard</h3>
+                <div class="imageCenter">
+                    <img class="extraPadding" src="images/storyboard.png" alt="Storyboard of emotion animation app" width="400" height="200">
+                    <h3>Storyboard</h3>
+                </div>
             </div>
         </section>
         

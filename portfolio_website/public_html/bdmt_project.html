@@ -10,7 +10,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
-        <link rel ="stylesheet" href="css/project_desktop.css">
+        <link rel ="stylesheet" href="css/project_desktop.css" media="(min-width: 1201px)">
+        <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
+        <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -22,7 +24,7 @@ and open the template in the editor.
                 </h2>
             </div>
             <a class="hvr-grow containerClose" href="index.html#bdmt">
-              <span class="fa-stack fa-2x moveRight">
+              <span class="fa-stack fa-2x moveRightMobile">
                 <i class="fa fa-square fa-stack-2x textDark"></i>
                 <i class="fa fa-close fa-stack-1x fa-inverse"></i>
                 </span>  
@@ -31,7 +33,9 @@ and open the template in the editor.
         
         <section class="clearfix">
             <div class="container">
-                <img class="moveRight extraPadding" src="images/bdmt_standard.png" alt="BDMT standard arena" width="400" height="200">
+                <div class="imageCenter">
+                    <img class="moveRight extraPadding" src="images/bdmt_standard.png" alt="BDMT standard arena" width="400" height="200">
+                </div>
             </div>
             <p class="container">
                 My team created a <span class="textLight"> multiplayer</span> game where players <span class="textLight"> compete</span> against each other in a <span class="textLight"> badminton simulation</span> featuring <span class="textLight"> realistic physics</span>. The <span class="textLight"> goal</span> is make your opponent miss the birdie to score a point.  The player can hit the birdie in three different ways (under hit, over hit, and regular hit) with a jump modifier on each of these. We also included three more super modifiers (super hit, super gravity on the birdie, and sprint).<br>               
@@ -46,8 +50,10 @@ and open the template in the editor.
                 </p>
             </div>
             <div class="container">
-                <img class="extraPadding" src="images/bdmt_arena.png" alt="Arena choice" width="400" height="200">
-                <img class="extraPadding" src="images/bdmt_windy.png" alt="Windy arena" width="400" height="200">
+                <div class="imageCenter">
+                    <img class="extraPadding" src="images/bdmt_arena.png" alt="Arena choice" width="400" height="200">
+                    <img class="extraPadding" src="images/bdmt_windy.png" alt="Windy arena" width="400" height="200">
+                </div>
             </div>
         </section>
         

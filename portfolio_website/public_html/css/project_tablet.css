@@ -20,7 +20,7 @@ body{
 }
 
 header {
-    height: 200px;
+    height: 240px;
 }
 
 h1 {
@@ -36,10 +36,6 @@ h2{
 
 h3{
     font-size: 1.25em;
-}
-
-p {
-    width: 500px !important;
 }
 
 /*LINKS*/
@@ -94,9 +90,6 @@ a:hover {
     display: table;
 }
 
-.moveRight {
-    float: right;
-}
 
 .moveRightMobile {
     float: right;
@@ -105,25 +98,32 @@ a:hover {
 .extraMargin {
     margin: 10px;
 }
-.extraPadding {
-    padding-top: 20px;
+
+.imageCenter {
+    width: 400px;
+    margin: auto;
 }
+
+.imagePadding {
+    padding: 10px;
+}
+
 /*CONTAINERS*/
 .container {
-    width: 50%;
+    width: 75%;
     box-sizing: border-box;
-    float: left;
     padding: 30px;
+    margin: auto;
 }
 
 .containerHeader {
-    width: 95%;
+    width: 90%;
     box-sizing: border-box;
     float: left;
 }
 
 .containerClose {
-    width: 5%;
+    width: 10%;
     box-sizing: border-box;
     padding: 10px;
     float: right;
