@@ -14,6 +14,8 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
         <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
@@ -34,7 +36,9 @@ and open the template in the editor.
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
-                    <img class="moveRight extraPadding" src="images/network_toyota.png" alt="Toyota social network graph" width="400" height="200"><br>
+                    <a data-lightbox="image-10" data-title="Toyota Social Network Graph" href="images/network_toyota.png">
+                        <img class="moveRight extraPadding" src="images/network_toyota.png" alt="Toyota social network graph" width="400" height="200"><br>
+                    </a>
                     <h3 class="moveRight">@toyota Figure 4 showing the connectedness of the networks</h3>
                 </div>
             </div>
@@ -52,7 +56,9 @@ and open the template in the editor.
                 </p>
             </div>
             <div class="container">
-                <img class="extraPadding" src="images/network_yogabook.png" alt="Yogabook social network graph" width="400" height="200">
+                <a data-lightbox="image-11" data-title="Yogabook Social Network Graph" href="images/network_yogabook.png">
+                    <img class="extraPadding" src="images/network_yogabook.png" alt="Yogabook social network graph" width="400" height="200">
+                </a>
                 <h3>#yogabook Figure 7 showing the connectedness of the graphs</h3>
             </div>
         </section>
@@ -63,5 +69,6 @@ and open the template in the editor.
                 <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
              </div>
         </footer>
+        <script src="lightbox.js"></script>
     </body>
 </html>

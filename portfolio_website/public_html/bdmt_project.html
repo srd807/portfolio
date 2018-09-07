@@ -14,6 +14,8 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
         <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
@@ -34,7 +36,9 @@ and open the template in the editor.
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
-                    <img class="moveRight extraPadding" src="images/bdmt_standard.png" alt="BDMT standard arena" width="400" height="200">
+                    <a data-lightbox="image-4" data-title="BDMT Standard Area" href="images/bdmt_standard.png">
+                        <img class="moveRight extraPadding" src="images/bdmt_standard.png" alt="BDMT standard arena" width="400" height="200">
+                    </a>
                 </div>
             </div>
             <p class="container">
@@ -51,8 +55,12 @@ and open the template in the editor.
             </div>
             <div class="container">
                 <div class="imageCenter">
-                    <img class="extraPadding" src="images/bdmt_arena.png" alt="Arena choice" width="400" height="200">
-                    <img class="extraPadding" src="images/bdmt_windy.png" alt="Windy arena" width="400" height="200">
+                    <a data-lightbox="image-5" data-title="Arena Choice" href="images/bdmt_arena.png">
+                        <img class="extraPadding" src="images/bdmt_arena.png" alt="Arena choice" width="400" height="200">
+                    </a>
+                    <a data-lightbox="image-6" data-title="Windy Arena" href="images/bdmt_windy.png">
+                        <img class="extraPadding" src="images/bdmt_windy.png" alt="Windy arena" width="400" height="200">
+                    </a>
                 </div>
             </div>
         </section>
@@ -61,5 +69,6 @@ and open the template in the editor.
             <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
             <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
         </footer>
+        <script src="lightbox.js"></script>
     </body>
 </html>

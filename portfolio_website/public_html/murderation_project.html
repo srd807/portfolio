@@ -14,6 +14,8 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
         <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
@@ -30,11 +32,13 @@ and open the template in the editor.
                 </span>  
             </a>
         </header>
-        
+
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
-                    <img class="moveRight extraPadding" src="images/murderation_home.png" alt="Murderation start screen" width="400" height="200">
+                    <a data-lightbox="image-1" data-title="Murderation Start Screen" href="images/murderation_home.png">
+                        <img class="extraPadding moveRight" src="images/murderation_home.png" alt="Murderation start screen" width="400" height="200">
+                    </a>
                 </div>
             </div>
             <p class="container">
@@ -51,7 +55,8 @@ and open the template in the editor.
                 <span class="textLight"> Programmer</span> Jordan Nelson<br>
                 <span class="textLight"> Programmer</span> Matthew Snow
             </p>
-        </section>        
+        </section> 
+        
         <section class="clearfix">
             <div class="container">
                 <p class="moveRight">
@@ -60,8 +65,12 @@ and open the template in the editor.
             </div>
             <div class="container">
                 <div class="imageCenter">
-                    <img class="extraPadding imagePadding" src="images/murderation_choice1.png" alt="Dialogue choice" width="400" height="200">
-                    <img class="extraPadding imagePadding" src="images/murderation_choice2.png" alt="Object choice" width="400" height="200">
+                    <a data-lightbox="image-2" data-title="Dialogue Choice" href="images/muderation_choice1.png">
+                        <img class="extraPadding imagePadding" src="images/murderation_choice1.png" alt="Dialogue choice" width="400" height="200">
+                    </a>
+                    <a data-lightbox="image-3" data-title="Object Choice" href="images/murderation_choice2.png">
+                        <img class="extraPadding imagePadding" src="images/murderation_choice2.png" alt="Object choice" width="400" height="200">
+                    </a>
                 </div>
             </div>
         </section>
@@ -70,5 +79,6 @@ and open the template in the editor.
             <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
             <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
         </footer>
+        <script src="lightbox.js"></script>
     </body>
 </html>
