@@ -19,11 +19,8 @@ body{
 }
 
 header {
-    height: 350px;
-    background-image: url("../images/linen_texture.png");
     top: 0;
     width: 100%;
-    z-index: 1;
 }
 
 h1 {
@@ -69,7 +66,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: none;
     color: #363838 !important;
     text-align: center;
     padding: 14px 16px;
@@ -81,10 +78,6 @@ li a {
     border-color: red;
     border-width: 1px;
 }
-
-/*li a.active{
-    color: #6126C9;
-}*/
 
 li a:hover {
     color: #6126C9 !important;
@@ -207,6 +200,10 @@ li a:hover {
     height: 110px;
 }
 
+.hideMainNav {
+    display: none;
+}
+
 /*ANIMATIONS/*
 /* Grow */
 .hvr-grow {
@@ -270,4 +267,48 @@ li a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+#mainTitle {
+    text-align: left !important;
+}
+/*NAVIGATION*/
+.topnav {
+  overflow: hidden;
+  background-color: #363838;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #45E8B0;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #363838;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 15%;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #C3C1BF;
+  color: #6126C9;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-image: url("../images/linen_texture.png");
 }

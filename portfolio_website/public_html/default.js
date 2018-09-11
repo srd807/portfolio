@@ -3,5 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var demoTrigger = document.querySelector('.demo-trigger');
-new Luminous(demoTrigger);
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

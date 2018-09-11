@@ -14,15 +14,34 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/tablet.css" media="(min-width: 701px) and (max-width: 1344px)">
         <link rel="stylesheet" href="css/mobile.css" media="(max-width: 700px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="default.js"></script>
     </head>
     <body>
         <a name="page"></a>
         <header class="clearfix">
-            <div id="mainTitle">
+            <div id="mainTitle" class="hideMainNav">
                 <h1 class="textLight smallLineHeight">Simone Debrowney</h1>
                 <h3 class="textNormal textCenter smallLineHeight">Interactive Systems Designer</h3>
             </div>
-            <ul class="textNormal" id="nav">
+            <div class="topnav">
+            <a href="#page" class="active hideMobileNav">
+                <div id="mainTitle">
+                    <h1 class="textLight smallLineHeight">Simone Debrowney</h1>
+                    <h3 class="textNormal textCenter smallLineHeight">Interactive Systems Designer</h3>
+                </div>
+            </a>
+            <div id="myLinks" class="hideMobileNav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hideMobileNav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars fa-2x hideMainNav"></i>
+                </a>
+            </div>
+            <ul class="textNormal hideMainNav" id="nav">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>

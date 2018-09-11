@@ -78,10 +78,6 @@ li a {
     font-weight: bold;
 }
 
-/*li a.active{
-    color: #6126C9;
-}*/
-
 li a:hover {
     color: #6126C9 !important;
 }
@@ -208,6 +204,10 @@ li a:hover {
 }
 .textContact {
     margin-top: 50px;
+}
+
+.hideMobileNav {
+    display: none;
 }
 
 /*ANIMATIONS/*

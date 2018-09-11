@@ -179,12 +179,6 @@ li a:hover {
     float: right;
 }
 
-/*.projectMove {
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-}*/
-
 .extraPadding {
     padding: 10px;
 }
@@ -213,6 +207,10 @@ li a:hover {
 
 .textContact {
     margin-top: 50px;
+}
+
+.hideMobileNav {
+    display: none;
 }
 
 /*ANIMATIONS/*
