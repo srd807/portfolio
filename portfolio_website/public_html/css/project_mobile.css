@@ -148,3 +148,9 @@ a:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+/*IDS*/
+#link {
+    padding: 20px;
+    font-size: 1.25em;
+}
