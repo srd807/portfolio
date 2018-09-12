@@ -151,6 +151,13 @@ a:hover {
 
 /*IDS*/
 #link {
-    padding: 20px;
-    font-size: 1.25em;
+    font-size: 1em;
+}
+
+#marginImage {
+    margin-bottom: 20px;
+}
+
+#paddingLeft {
+    padding-left: 10px;
 }
