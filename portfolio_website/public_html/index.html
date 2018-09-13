@@ -12,7 +12,8 @@ and open the template in the editor.
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
         <link rel ="stylesheet" href="css/desktopMain.css" media="(min-width: 1345px)">
         <link rel="stylesheet" href="css/tablet.css" media="(min-width: 701px) and (max-width: 1344px)">
-        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 700px)">
+        <link rel="stylesheet" href="css/mobile.css" media="(min-width: 375px) and (max-width: 600px)">
+        <link rel="stylesheet" href="css/mobile_small.css" media="(max-width: 374px)">        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="default.js"></script>
     </head>
@@ -24,7 +25,7 @@ and open the template in the editor.
                 <h3 class="textNormal textCenter smallLineHeight">Interactive Systems Designer</h3>
             </div>
             <div class="topnav">
-            <a href="#page" class="active hideMobileNav">
+            <a href="#page" class="active hideMobileNav" id="titleTop">
                 <div id="mainTitle">
                     <h1 class="textLight smallLineHeight">Simone Debrowney</h1>
                     <h3 class="textNormal textCenter smallLineHeight">Interactive Systems Designer</h3>
@@ -64,7 +65,7 @@ and open the template in the editor.
                 <article id="aboutPicture">
                     <div class="moveRight">
                         <img class="roundCorners" src="images/simone.jpg" alt="Simone Debrowney photo" width="200" height="200"><br>
-                        <a id="resumeLink" href="images/Resume_Simone_Debrowney_2018.pdf" download>Resume</a>
+                        <a class="underline" id="resumeLink" href="images/Resume_Simone_Debrowney_2018.pdf" download>Resume</a>
                     </div>
                 </article>
                 <div id="aboutP">
@@ -153,7 +154,7 @@ and open the template in the editor.
                     <a name="murderation"></a>
                     <a href="murderation_project.html">
                         <article class="backgroundLight projectContainer moveRightProjects hvr-grow">
-                            <img src="images/murderation_home.png" alt="start screen" width="400" height="200">
+                            <img class="imageNormal imageMobile" src="images/murderation_home.png" alt="start screen">
                             <div class="descriptionContainer">
                                 <h2 class="textLight">All Things In Murderation</h2>
                                 <p class="textNormal">
@@ -169,7 +170,7 @@ and open the template in the editor.
                     <a name="bdmt"></a>
                     <a href="bdmt_project.html">
                         <article class="backgroundLight projectContainer hvr-grow">
-                            <img src="images/bdmt_standard.png" alt="standard arena" width="400" height="200">
+                            <img class="imageNormal imageMobile" src="images/bdmt_standard.png" alt="standard arena">
                             <div class="descriptionContainer">
                                 <h2 class="textLight">BDMT</h2>
                                 <p class="textNormal">
@@ -187,7 +188,7 @@ and open the template in the editor.
                     <a name="persuasion"></a>
                     <a href="persuasion_project.html">
                         <article class="backgroundLight projectContainer moveRightProjects hvr-grow">
-                            <img src="images/chickpeas.jpg" alt="chickpeas field" width="400" height="200">
+                            <img class="imageNormal imageMobile" src="images/chickpeas.jpg" alt="chickpeas field">
                             <!-- Image taken from https://commons.wikimedia.org/wiki/File:Gramgram.jpg -->
                             <div class="descriptionContainer">
                                 <h2 class="textLight">Persuading a Shift to Healthier Eating Habits</h2>
@@ -204,7 +205,7 @@ and open the template in the editor.
                     <a name="network"></a>
                     <a href="network_project.html">
                         <article class="backgroundLight projectContainer hvr-grow">
-                            <img src="images/network_toyota.png" alt="social network graph" width="400" height="200">
+                            <img class="imageNormal imageMobile" src="images/network_toyota.png" alt="social network graph">
                             <div class="descriptionContainer">
                                 <h2 class="textLight">Social Network Analysis</h2>
                                 <p class="textNormal">
@@ -221,7 +222,7 @@ and open the template in the editor.
                 <a name="emotion"></a>
                 <a href="emotion_project.html">
                     <article class="backgroundLight projectContainer hvr-grow">
-                        <img src="images/sketches.png" alt="sketches" width="400" height="200">
+                        <img class="imageNormal imageMobile" src="images/sketches.png" alt="sketches">
                         <div class="descriptionContainer">
                             <h2 class="textLight">Emotion Animation</h2>
                             <p class="textNormal">
@@ -238,35 +239,39 @@ and open the template in the editor.
         <a name="contact"></a>
         <section>
             <h1 class="textLight">Contact Me</h1>
-            <section>
-                <div class="clearfix">
+                <div class="clearfix marginBottomContact">
                     <div class="containerContact">
-                        <a class="moveRightContact extraPadding hvr-grow" href="mailto:simone.debrowney@usask.ca?Subject=Hello%20again">
-                            <span class="fa-stack fa-3x">
-                                <i class="fa fa-circle fa-stack-2x textDark"></i>
-                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
+                        <div class="iconCenter">
+                            <a class="moveRightContact extraPadding hvr-grow" href="mailto:simone.debrowney@usask.ca?Subject=Hello%20again">
+                                <span class="fa-stack fa-3x">
+                                    <i class="fa fa-circle fa-stack-2x textDark"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <h3 class="textNormal containerContact textContact textMobileCenter">Send me a message at simone.debrowney@usask.ca</h3>
                 </div>
                 <div class="clearfix">
                     <div class="containerContact">
-                        <a class="moveRightContact extraPadding hvr-grow" href="https://www.linkedin.com/in/simone-debrowney/">
-                            <span class="fa-stack fa-3x">
-                                <i class="fa fa-circle fa-stack-2x textDark"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
+                        <div class="iconCenter">
+                            <a class="moveRightContact extraPadding hvr-grow" href="https://www.linkedin.com/in/simone-debrowney/">
+                                <span class="fa-stack fa-3x">
+                                    <i class="fa fa-circle fa-stack-2x textDark"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <h3 class="textNormal containerContact textContact textMobileCenter">Connect with me on Linkedin</h3>
                 </div>
-            </section>
         </section>
         
         <footer class="backgroundDark">
-            <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
-            <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+            <div class="extraPaddingFooter">
+                <h3 class="textDark">Simone Debrowney &copy; 2018</h3>
+                <a class="textDark" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+            </div>
         </footer>
     </body>
 </html>

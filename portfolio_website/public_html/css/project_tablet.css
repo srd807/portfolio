@@ -81,6 +81,10 @@ a:hover {
     background-color: #C3C1BF;
 }
 
+.underline {
+    text-decoration: underline !important;
+}
+
 /*ALIGNMENT*/
 .textCenter {
     text-align: center;
@@ -97,8 +101,8 @@ a:hover {
     float: right;
 }
 
-.extraMargin {
-    margin: 10px;
+.extraPaddingFooter {
+    padding: 10px;
 }
 
 .imageCenter {
@@ -108,6 +112,15 @@ a:hover {
 
 .imagePadding {
     padding: 10px;
+}
+
+.imageNormal {
+    width: 400px;
+    height: 200px;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
 }
 
 /*CONTAINERS*/

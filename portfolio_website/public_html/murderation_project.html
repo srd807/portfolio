@@ -12,32 +12,33 @@ and open the template in the editor.
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
         <link rel ="stylesheet" href="css/project_desktop.css" media="(min-width: 1201px)">
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
-        <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile.css" media="(min-width: 375px) and (max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile_small.css" media="(max-width: 374px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/lightbox.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
-            <div class="containerHeader">
-                <h1 class="textCenter">All Things in Murderation</h1>
-                <h2 class="textCenter">Course: “Game Design Workshop” (Computer Science 406)<br>
-                A branching narrative murder mystery game
-                </h2>
-            </div>
             <a class="hvr-grow containerClose" href="index.html#murderation">
               <span class="fa-stack fa-2x moveRightMobile">
                 <i class="fa fa-square fa-stack-2x textDark"></i>
                 <i class="fa fa-close fa-stack-1x fa-inverse"></i>
                 </span>  
             </a>
+            <div class="containerHeader">
+                <h1 class="textCenter">All Things in Murderation</h1>
+                <h2 class="textCenter">Course: “Game Design Workshop” (Computer Science 406)<br>
+                A branching narrative murder mystery game
+                </h2>
+            </div>
         </header>
 
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-1" data-title="Murderation Start Screen" href="images/murderation_home.png">
-                        <img class="extraPadding moveRight hvr-grow" src="images/murderation_home.png" alt="Murderation start screen" width="400" height="200">
+                        <img class="extraPadding moveRight hvr-grow imageNormal imageMobile" src="images/murderation_home.png" alt="Murderation start screen">
                     </a>
                 </div>
             </div>
@@ -60,24 +61,26 @@ and open the template in the editor.
         <section class="clearfix">
             <div class="container">
                 <p class="moveRight">
-                    The game consists of three acts: <span class="textLight">exploration, investigation, and accusation</span>. During the <span class="textLight"> exploration</span> act, player’s choices will determine which character will be murdered either through dialogue options or picking up items. During the <span class="textLight">investigation</span> act,players will <span class="textLight"> examine</span> the crime scene, <span class="textLight"> interrogate</span> other characters, and <span class="textLight"> explore</span> the mansion for clues. Once the player has decided on a murderer, they will start the <span class="textLight"> accusation</span> act and try to <span class="textLight"> successfully argue</span> for their case using evidence they found or through dialogue options. Several playthroughs may be necessary for players to gather all the correct evidence to successfully accuse the                  murderer.  The game was created using Unity 2017, C#, and Git. <a href="https://daylonball.github.io/allthingsinmurderation/">Game hosted on GitHub</a>
+                    The game consists of three acts: <span class="textLight">exploration, investigation, and accusation</span>. During the <span class="textLight"> exploration</span> act, player’s choices will determine which character will be murdered either through dialogue options or picking up items. During the <span class="textLight">investigation</span> act,players will <span class="textLight"> examine</span> the crime scene, <span class="textLight"> interrogate</span> other characters, and <span class="textLight"> explore</span> the mansion for clues. Once the player has decided on a murderer, they will start the <span class="textLight"> accusation</span> act and try to <span class="textLight"> successfully argue</span> for their case using evidence they found or through dialogue options. Several playthroughs may be necessary for players to gather all the correct evidence to successfully accuse the                  murderer.  The game was created using Unity 2017, C#, and Git. <a class="underline textNormal" href="https://daylonball.github.io/allthingsinmurderation/">Game hosted on GitHub</a>
                 </p>
             </div>
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-2" data-title="Dialogue Choice" href="images/murderation_choice1.png">
-                        <img class="extraPadding imagePadding hvr-grow" src="images/murderation_choice1.png" alt="Dialogue choice" width="400" height="200">
+                        <img class="extraPadding marginBottom hvr-grow imageNormal imageMobile" src="images/murderation_choice1.png" alt="Dialogue choice">
                     </a>
                     <a data-lightbox="image-3" data-title="Object Choice" href="images/murderation_choice2.png">
-                        <img class="extraPadding imagePadding hvr-grow" src="images/murderation_choice2.png" alt="Object choice" width="400" height="200">
+                        <img class="extraPadding hvr-grow imageNormal imageMobile" src="images/murderation_choice2.png" alt="Object choice">
                     </a>
                 </div>
             </div>
         </section>
         
          <footer class="backgroundDark">
-            <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
-            <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             <div class="extraPaddingFooter">
+                <h3 class="textDark ">Simone Debrowney &copy; 2018</h3>
+                <a class="textDark" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             </div>
         </footer>
         <script src="lightbox.js"></script>
     </body>

@@ -19,11 +19,8 @@ body{
 }
 
 header {
-    height: 150px;
-    background-image: url("../images/linen_texture.png");
     top: 0;
     width: 100%;
-    z-index: 1;
 }
 
 h1 {
@@ -64,11 +61,12 @@ ul {
 }
 
 li {
-    float: left;
+    width: 200px;
+    margin: auto;
 }
 
 li a {
-    display: block;
+    display: none;
     color: #363838 !important;
     text-align: center;
     padding: 14px 16px;
@@ -76,11 +74,10 @@ li a {
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 1.875em;
     font-weight: bold;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
 }
-
-/*li a.active{
-    color: #6126C9;
-}*/
 
 li a:hover {
     color: #6126C9 !important;
@@ -103,12 +100,12 @@ li a:hover {
     background-color: #363838;
 }
 
-.underline {
-    text-decoration: underline !important;
-}
-
 .backgroundLight{
     background-color: #C3C1BF;
+}
+
+.underline {
+    text-decoration: underline !important;
 }
 
 /*CONTAINERS*/
@@ -120,34 +117,40 @@ li a:hover {
 
 .containerCenter{
     margin: auto;
-    width: 460px;
-    border-style:  solid;
-    border-width: 1px;
-    border-color: #363838;
+    width: 250px;
 }
 
 .projectContainer {
-    height: 450px;
-    width: 400px;
-    margin: 30px;
-}
-
-
-.containerSkills {
-    box-sizing: border-box;
-    float: left;
-    width: 33.33%;
-    padding: 10px;
+    height: 460px;
+    width: 250px;
+    margin-bottom: 30px;
 }
 
 .containerContact {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
-    float: left;
 }
+
+.containerMobileCenter {
+    margin: auto;
+}
+
+.mobileSkillsCenter { 
+    margin: auto;
+    width: 185px;
+}
+
+.marginBottomContact {
+    margin-bottom: 30px;
+}
+
  
 /*ALIGNMENT*/
 .textCenter {
+    text-align: center;
+}
+
+.textMobileCenter {
     text-align: center;
 }
 
@@ -158,7 +161,7 @@ li a:hover {
 }
 
 .descriptionContainer {
-    padding: 20px;
+    padding: 10px;
 }
 
 .titlePadding {
@@ -167,24 +170,16 @@ li a:hover {
 }
 
 .smallLineHeight {
-    line-height: 30%;
+    line-height: 75%;
 }
 
 .backgroundImage {
     background-image: url("images/linen_texture.png");
 }
 
-.moveRight {
-    float: right;
-}
-
-
-.moveRightContact {
-    float: right;
-}
-
-.extraPadding {
-    padding: 10px;
+.iconCenter {
+    margin: auto;
+    width: 98px;
 }
 
 .positionFixed {
@@ -209,17 +204,13 @@ li a:hover {
     height: 110px;
 }
 
-.textContact {
-    margin-top: 50px;
-}
-
-.hideMobileNav {
+.hideMainNav {
     display: none;
 }
 
-.imageNormal {
-    width: 400px;
-    height: 200px;
+.imageMobile {
+    width: 250px;
+    height: 125px;
 }
 
 /*ANIMATIONS/*
@@ -255,18 +246,17 @@ li a:hover {
 #aboutPicture {
     padding: 20px;
     text-align: center;
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
-    float: left;
+    float: left;   
 }
 
 #aboutP {
-    width: 50%;
+    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
-    float: left;
 }
 
 #skillsCenter {
@@ -274,20 +264,64 @@ li a:hover {
     width: 185px;
 }
 
-#aboutPWidth {
-    width: 300px;
-}
-
 #containerCenterEmotion{
     margin: auto;
-    width: 460px;
-    border-style:  solid;
-    border-width: 1px;
-    border-color: #363838;
+    width: 250px;
 }
 
 #top {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 1;
+}
+
+#mainTitle {
+    text-align: left !important;
+}
+
+#titleTop {
+    margin-top: 80px;
+}
+/*NAVIGATION*/
+.topnav {
+  overflow: hidden;
+  background-color: #363838;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #45E8B0;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background-color: #6126C9;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 15%;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #C3C1BF;
+  color: #6126C9;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-image: url("../images/linen_texture.png");
 }

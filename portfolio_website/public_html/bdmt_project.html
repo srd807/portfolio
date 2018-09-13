@@ -12,32 +12,33 @@ and open the template in the editor.
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
         <link rel ="stylesheet" href="css/project_desktop.css" media="(min-width: 1201px)">
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
-        <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile.css" media="(min-width: 375px) and (max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile_small.css" media="(max-width: 374px)">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/lightbox.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
-            <div class="containerHeader">
-                <h1 class="textCenter">BDMT</h1>
-                <h2 class="textCenter">Course: “Game Mechanics” (Computer Science 306)<br>
-                Two Player competitive badminton simulation game
-                </h2>
-            </div>
             <a class="hvr-grow containerClose" href="index.html#bdmt">
               <span class="fa-stack fa-2x moveRightMobile">
                 <i class="fa fa-square fa-stack-2x textDark"></i>
                 <i class="fa fa-close fa-stack-1x fa-inverse"></i>
                 </span>  
             </a>
+            <div class="containerHeader">
+                <h1 class="textCenter">BDMT</h1>
+                <h2 class="textCenter">Course: “Game Mechanics” (Computer Science 306)<br>
+                Two Player competitive badminton simulation game
+                </h2>
+            </div>
         </header>
         
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-4" data-title="BDMT Standard Area" href="images/bdmt_standard.png">
-                        <img class="moveRight  hvr-grow" src="images/bdmt_standard.png" alt="BDMT standard arena" width="400" height="200">
+                        <img class="moveRight  hvr-grow imageNormal imageMobile" src="images/bdmt_standard.png" alt="BDMT standard arena">
                     </a>
                 </div>
             </div>
@@ -50,24 +51,26 @@ and open the template in the editor.
         <section class="clearfix">
             <div class="container">
                 <p class="moveRight">
-                    The game has <span class="textLight"> two levels</span>, one <span class="textLight"> standard</span> and the other featuring randomly <span class="textLight"> generated wind</span> that is either an advantage or disadvantage to the players. The players are given a warning before this occurs. The <span class="textLight"> game ends</span> when either the <span class="textLight"> timer runs out</span> or if a player reaches 11 points with a 2-point lead. At the end of the game, the players are presented with a rematch suggestion.  The game was developed using Unity 5, C#, and Git. The game is played using two XBOX 360 compatible controllers. <a href="https://github.com/siemenskyle/BDMT">GitHub Link</a>
+                    The game has <span class="textLight"> two levels</span>, one <span class="textLight"> standard</span> and the other featuring randomly <span class="textLight"> generated wind</span> that is either an advantage or disadvantage to the players. The players are given a warning before this occurs. The <span class="textLight"> game ends</span> when either the <span class="textLight"> timer runs out</span> or if a player reaches 11 points with a 2-point lead. At the end of the game, the players are presented with a rematch suggestion.  The game was developed using Unity 5, C#, and Git. The game is played using two XBOX 360 compatible controllers. <a class="textNormal underline" href="https://github.com/siemenskyle/BDMT">GitHub Link</a>
                 </p>
             </div>
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-5" data-title="Arena Choice" href="images/bdmt_arena.png">
-                        <img class="extraPadding hvr-grow imagePadding" src="images/bdmt_arena.png" alt="Arena choice" width="400" height="200">
+                        <img class="extraPadding hvr-grow imageNormal imageMobile marginBottom" src="images/bdmt_arena.png" alt="Arena choice">
                     </a>
                     <a data-lightbox="image-6" data-title="Windy Arena" href="images/bdmt_windy.png">
-                        <img class="extraPadding hvr-grow imagePadding" src="images/bdmt_windy.png" alt="Windy arena" width="400" height="200">
+                        <img class="extraPadding hvr-grow imageNormal imageMobile" src="images/bdmt_windy.png" alt="Windy arena">
                     </a>
                 </div>
             </div>
         </section>
         
          <footer class="backgroundDark">
-            <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
-            <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             <div class="extraPaddingFooter">
+                <h3 class="textDark">Simone Debrowney &copy; 2018</h3>
+                <a class="textDark" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             </div>
         </footer>
         <script src="lightbox.js"></script>
     </body>

@@ -103,6 +103,10 @@ li a:hover {
     background-color: #C3C1BF;
 }
 
+.underline {
+    text-decoration: underline !important;
+}
+
 /*CONTAINERS*/
 .skillBox{
     height: 350px;
@@ -208,6 +212,11 @@ li a:hover {
 
 .hideMobileNav {
     display: none;
+}
+
+.imageNormal {
+    width: 400px;
+    height: 200px;
 }
 
 /*ANIMATIONS/*

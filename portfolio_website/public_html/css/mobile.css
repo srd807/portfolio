@@ -104,6 +104,10 @@ li a:hover {
     background-color: #C3C1BF;
 }
 
+.underline {
+    text-decoration: underline !important;
+}
+
 /*CONTAINERS*/
 .skillBox{
     height: 350px;
@@ -113,23 +117,18 @@ li a:hover {
 
 .containerCenter{
     margin: auto;
-    width: 460px;
-    border-style:  solid;
-    border-width: 1px;
-    border-color: #363838;
+    width: 300px;
 }
 
 .projectContainer {
-    height: 450px;
-    width: 400px;
-    margin: 30px;
+    height: 430px;
+    width: 300px;
+    margin-bottom: 30px;
 }
 
 .containerContact {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
-    float: left;
-    padding: 10px;
 }
 
 .containerMobileCenter {
@@ -139,6 +138,10 @@ li a:hover {
 .mobileSkillsCenter { 
     margin: auto;
     width: 185px;
+}
+
+.marginBottomContact {
+    margin-bottom: 30px;
 }
 
  
@@ -167,15 +170,16 @@ li a:hover {
 }
 
 .smallLineHeight {
-    line-height: 30%;
+    line-height: 75%;
 }
 
 .backgroundImage {
     background-image: url("images/linen_texture.png");
 }
 
-.moveRightContact {
-    float: right;
+.iconCenter {
+    margin: auto;
+    width: 98px;
 }
 
 .positionFixed {
@@ -202,6 +206,11 @@ li a:hover {
 
 .hideMainNav {
     display: none;
+}
+
+.imageMobile {
+    width: 300px;
+    height: 150px;
 }
 
 /*ANIMATIONS/*
@@ -257,10 +266,7 @@ li a:hover {
 
 #containerCenterEmotion{
     margin: auto;
-    width: 460px;
-    border-style:  solid;
-    border-width: 1px;
-    border-color: #363838;
+    width: 300px;
 }
 
 #top {
@@ -272,6 +278,10 @@ li a:hover {
 
 #mainTitle {
     text-align: left !important;
+}
+
+#titleTop {
+    margin-top: 80px;
 }
 /*NAVIGATION*/
 .topnav {
@@ -290,17 +300,19 @@ li a:hover {
   color: #45E8B0;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
   display: block;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #363838;
+  background-color: #6126C9;
   display: block;
   position: absolute;
   right: 10px;
   top: 10px;
   border-radius: 15%;
+  color: white;
 }
 
 /* Add a grey background color on mouse-over */

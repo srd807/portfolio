@@ -12,39 +12,40 @@ and open the template in the editor.
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
         <link rel ="stylesheet" href="css/project_desktop.css" media="(min-width: 1201px)">
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
-        <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile.css" media="(min-width: 375px) and (max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile_small.css" media="(max-width: 374px)">        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/lightbox.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
-            <div class="containerHeader">
-                <h1 class="textCenter">Persuading a Shift to Healthier Eating Habits</h1>
-                <h2 class="textCenter">Computer Science Undergraduate Research Assistant Summer Job</h2>
-            </div>
             <a class="hvr-grow containerClose" href="index.html#persuasion">
               <span class="fa-stack fa-2x moveRightMobile">
                 <i class="fa fa-square fa-stack-2x textDark"></i>
                 <i class="fa fa-close fa-stack-1x fa-inverse"></i>
                 </span>  
             </a>
+            <div class="containerHeader">
+                <h1 class="textCenter">Persuading a Shift to Healthier Eating Habits</h1>
+                <h2 class="textCenter">Computer Science Undergraduate Research Assistant Summer Job</h2>
+            </div>
         </header>
         
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-7" data-title="Chickpeas Field" href="images/chickpeas.jpg">
-                        <img class="moveRight extraPadding hvr-grow" id="marginImage" src="images/chickpeas.jpg" alt="Chickpeas field" width="400" height="200">
+                        <img class="moveRight extraPadding hvr-grow imageNormal imageMobile" id="marginImage" src="images/chickpeas.jpg" alt="Chickpeas field">
                     </a>
-                    <a class="moveRight textNormal" id="link" href="https://commons.wikimedia.org/wiki/File:Gramgram.jpg">Image taken from Wikicommons by Avinashpothineni</a>
+                    <a class="moveRight textNormal underline" id="link" href="https://commons.wikimedia.org/wiki/File:Gramgram.jpg">Image taken from Wikicommons by Avinashpothineni</a>
                 </div>
             </div>
             <p class="container">
                 I worked with a PhD student on her research focused on <span class="textLight"> persuasion technology</span> and <span class="textLight"> healthier eating</span>. The overarching <span class="textLight"> goal</span> for this project was to examine <span class="textLight"> why people eat healthy</span> and use this information to <span class="textLight"> persuade others</span> to make healthier eating choices.<br>
                 <br><span class="textLight textTitle"> Team</span><br>
                 Prof. Julita Vassileva, Ifeoma Adaji, Simone Debrowney, and Czarina Sharmaine<br>
-                <a class="textNormal" href="https://link.springer.com/chapter/10.1007/978-3-319-91485-5_12">Link to published article</a>
+                <a class="textNormal underline" href="https://link.springer.com/chapter/10.1007/978-3-319-91485-5_12">Link to published article</a>
             </p>
         </section>
         
@@ -57,19 +58,21 @@ and open the template in the editor.
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-8" data-title="Recipe Page" href="images/allrecipes.png"> 
-                        <img class="extraPadding hvr-grow imagePadding paddingBetween test" src="images/allrecipes.png" alt="Allrecipes.com recipe page" width="300" height="300">
+                        <img class="extraPadding hvr-grow paddingBetween  marginBottom" src="images/allrecipes.png" alt="Allrecipes.com recipe page" width="300" height="300">
                     </a>
                     <a data-lightbox="image-9" data-title="Allrecipes.com Review" href="images/allrecipes_review.png">
-                        <img class="extraPadding hvr-grow imagePadding test" src="images/allrecipes_review.png" alt="Allrecipes.com review" width="300" height="300">
+                        <img class="extraPadding hvr-grow" src="images/allrecipes_review.png" alt="Allrecipes.com review" width="300" height="300">
                     </a>
-                    <h4 class="textNormal test" id="paddingLeft">Allrecipes.com</h4>
+                    <h4 class="textNormal">Allrecipes.com</h4>
                 </div>
             </div>
         </section>
         
          <footer class="backgroundDark">
-            <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
-            <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             <div class="extraPaddingFooter">
+                <h3 class="textDark">Simone Debrowney &copy; 2018</h3>
+                <a class="textDark" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             </div>
         </footer>
         <script src="lightbox.js"></script>
     </body>

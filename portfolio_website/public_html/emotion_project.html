@@ -12,32 +12,33 @@ and open the template in the editor.
         <meta name="description" content="Simone Debrowney's Interactive Systems Design Portfolio">
         <link rel ="stylesheet" href="css/project_desktop.css" media="(min-width: 1201px)">
         <link rel="stylesheet" href="css/project_tablet.css" media="(min-width: 601px) and (max-width: 1200px)">
-        <link rel="stylesheet" href="css/project_mobile.css" media="(max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile.css" media="(min-width: 375px) and (max-width: 600px)">
+        <link rel="stylesheet" href="css/project_mobile_small.css" media="(max-width: 374px)">        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/lightbox.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="textDark backgroundDark clearfix">
+            <a class="hvr-grow containerClose" href="index.html#emotion">
+              <span class="fa-stack fa-2x moveRightMobile">
+                <i class="fa fa-square fa-stack-2x textDark"></i>
+                <i class="fa fa-close fa-stack-1x fa-inverse"></i>
+                </span>  
+            </a>
             <div class="containerHeader">
                 <h1 class="textCenter">Emotion Animations</h1>
                 <h2 class="textCenter">Course: “Human Computer Interactions” (Computer Science 481)<br> 
                 Conveying emotion over instant messaging through animations
                 </h2>
             </div>
-             <a class="hvr-grow containerClose" href="index.html#emotion">
-              <span class="fa-stack fa-2x moveRightMobile">
-                <i class="fa fa-square fa-stack-2x textDark"></i>
-                <i class="fa fa-close fa-stack-1x fa-inverse"></i>
-                </span>  
-            </a>
         </header>
  
         <section class="clearfix">
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-12" data-title="Sketches of Emotion Animations" href="images/sketches.png">
-                        <img class="moveRight extraPadding hvr-grow" src="images/sketches.png" alt="Sketches of emotion animations" width="400" height="200">
+                        <img class="moveRight extraPadding hvr-grow imageNormal imageMobile" src="images/sketches.png" alt="Sketches of emotion animations">
                     </a>
                 </div>
             </div>
@@ -56,7 +57,7 @@ and open the template in the editor.
             <div class="container">
                 <div class="imageCenter">
                     <a data-lightbox="image-13" data-title="Storyboard of Emotion Animation" href="images/storyboard.png">
-                        <img class="extraPadding hvr-grow" src="images/storyboard.png" alt="Storyboard of emotion animation app" width="400" height="200">
+                        <img class="extraPadding hvr-grow imageNormal imageMobile" src="images/storyboard.png" alt="Storyboard of emotion animation app">
                     </a>
                     <h4 class="textNormal">Storyboard</h4>
                 </div>
@@ -64,8 +65,10 @@ and open the template in the editor.
         </section>
         
          <footer class="backgroundDark">
-            <h3 class="textDark extraMargin">Simone Debrowney &copy; 2018</h3>
-            <a class="textDark extraMargin" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             <div class="extraPaddingFooter">
+                <h3 class="textDark">Simone Debrowney &copy; 2018</h3>
+                <a class="textDark" href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Layerace - Freepik.com</a>
+             </div>
         </footer>
         <script src="lightbox.js"></script>
     </body>

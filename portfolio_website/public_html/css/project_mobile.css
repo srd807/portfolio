@@ -81,6 +81,10 @@ a:hover {
     background-color: #C3C1BF;
 }
 
+.underline {
+    text-decoration: underline !important;
+}
+
 /*ALIGNMENT*/
 .textCenter {
     text-align: center;
@@ -97,17 +101,26 @@ a:hover {
     float: right;
 }
 
-.extraMargin {
-    margin: 10px;
+.extraPaddingFooter {
+    padding: 10px;
 }
 
 .imageCenter {
-    width: 400px;
+    width: 300px;
     margin: auto;
 }
 
 .imagePadding {
     padding: 10px;
+}
+
+.imageMobile {
+    width: 300px;
+    height: 150px;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
 }
 
 /*CONTAINERS*/
@@ -119,15 +132,12 @@ a:hover {
 }
 
 .containerHeader {
-    width: 85%;
-    box-sizing: border-box;
     float: left;
 }
 
 .containerClose {
-    width: 15%;
-    box-sizing: border-box;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
     float: right;
 }
 
