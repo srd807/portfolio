@@ -119,6 +119,11 @@ a:hover {
     height: 125px;
 }
 
+.imageSquare {
+    width: 200px;
+    height: 200px;
+}
+
 .marginBottom {
     margin-bottom: 20px;
 }
